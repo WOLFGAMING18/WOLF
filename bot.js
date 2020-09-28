@@ -59,10 +59,10 @@ client24.login(process.env.TOKEN24);
 
 client.on('message', message => {
   if (message.content === '$d') {
-message.channel.send('#daily')
+message.channel.send('d')
   }
   if(message.content === '$c'){
-message.channel.send('#credits')
+message.channel.send('c')
   }
  if(message.content ===  '$u'){
 message.channel.send("©angryblack YT")
@@ -76,10 +76,10 @@ message.channel.send("©angryblack YT")
 
 client2.on('message', message => {
   if(message.content === '$d'){
-message.channel.send('#daily')
+message.channel.send('d')
   }
   if(message.content === '$c'){
-message.channel.send('#credits')
+message.channel.send('c')
   }
   if(message.content.startsWith("$s")) {
     //copyright © Angry Black 2020.//❦Angry Black❦
